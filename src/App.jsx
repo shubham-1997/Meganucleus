@@ -108,21 +108,21 @@ const differentiators = [
 const testimonials = [
   {
     quote:
-      'Meganucleus helped us scale our engineering team rapidly with high-quality talent and minimal effort.',
-    author: 'VP of Engineering',
-    company: 'Series B Startup',
+      'Meganucleus helped us hire and set up a full engineering team with speed and strong ownership across the process.',
+    author: 'Shubham Singh, Engineering Lead',
+    company: 'Bain & Company',
   },
   {
     quote:
-      'Their expert team, supported by smart tools, cut our hiring time in half. The quality of candidates was consistently impressive.',
-    author: 'Head of Talent',
-    company: 'Enterprise Tech Co.',
+      'We partnered with Meganucleus on a consulting engagement to develop an MVP prototype, and their execution was structured, fast, and reliable.',
+    author: 'Prashant, CPO',
+    company: 'The Insights Factory',
   },
   {
     quote:
-      'The embedded hiring model felt like having our own internal recruiting team - but better.',
-    author: 'CTO',
-    company: 'High-Growth SaaS',
+      'They are a dependable partner for team buildouts and hiring support, helping us move from role planning to onboarding without delays.',
+    author: 'Client Leadership Team',
+    company: 'Consulting and Product Teams',
   },
 ]
 
@@ -193,7 +193,7 @@ function App() {
             Trusted by leading global and high-growth companies
           </p>
           <div className="flex flex-wrap items-center justify-center gap-12 md:gap-20">
-            {['Bain & Company', 'Emulus Consulting', 'The Insights Factory'].map((name) => (
+            {['Bain & Company', 'Emulus Consulting', 'The Insights Factory', 'Virtusa', 'Vidyo.ai'].map((name) => (
               <div
                 key={name}
                 className="text-xl md:text-2xl font-heading font-semibold text-muted-foreground/60 hover:text-foreground/80 transition-colors duration-300"
@@ -343,10 +343,18 @@ function App() {
             <p className="text-muted-foreground text-lg mb-10 max-w-xl mx-auto">
               Let&apos;s talk about how Meganucleus can bring expert recruiters and smart tools together to scale your team with confidence.
             </p>
-            <button className={`${buttonBase} ${buttonHero} h-11 rounded-md px-10 text-base py-6`}>
-              Get Started
-              <ArrowRight className="w-5 h-5 ml-1" />
-            </button>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <button className={`${buttonBase} ${buttonHero} h-11 rounded-md px-10 text-base py-6`}>
+                Get Started
+                <ArrowRight className="w-5 h-5 ml-1" />
+              </button>
+              <a
+                href="mailto:communications@meganucleus.com"
+                className={`${buttonBase} ${buttonHeroOutline} h-11 rounded-md px-10 text-base py-6`}
+              >
+                communications@meganucleus.com
+              </a>
+            </div>
           </div>
         </div>
       </section>
