@@ -144,9 +144,12 @@ function App() {
                 {item}
               </a>
             ))}
-            <button className={`${buttonBase} ${buttonHero} h-9 rounded-md px-3`}>
+            <a
+              href="mailto:communications@meganucleus.com"
+              className={`${buttonBase} ${buttonHero} h-9 rounded-md px-3`}
+            >
               Start Hiring
-            </button>
+            </a>
           </div>
         </div>
       </nav>
@@ -175,13 +178,19 @@ function App() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <button className={`${buttonBase} ${buttonHero} h-11 rounded-md px-8 text-base py-6`}>
+              <a
+                href="mailto:communications@meganucleus.com"
+                className={`${buttonBase} ${buttonHero} h-11 rounded-md px-8 text-base py-6`}
+              >
                 Start Hiring
                 <ArrowRight className="w-5 h-5 ml-1" />
-              </button>
-              <button className={`${buttonBase} ${buttonHeroOutline} h-11 rounded-md px-8 text-base py-6`}>
+              </a>
+              <a
+                href="mailto:communications@meganucleus.com"
+                className={`${buttonBase} ${buttonHeroOutline} h-11 rounded-md px-8 text-base py-6`}
+              >
                 Book a Consultation
-              </button>
+              </a>
             </div>
           </div>
         </div>
