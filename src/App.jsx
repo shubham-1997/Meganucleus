@@ -121,8 +121,8 @@ const testimonials = [
   {
     quote:
       'They are a dependable partner for team buildouts and hiring support, helping us move from role planning to onboarding without delays.',
-    author: 'Client Leadership Team',
-    company: 'Consulting and Product Teams',
+    author: 'Kushagra, CTO',
+    company: 'Vidyo.ai',
   },
 ]
 
